@@ -1,0 +1,28 @@
+ @media (max-width:900px) {
+    .site__grid {
+        max-width: 300px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 524px) {
+    .site__grid {
+        max-width: 300px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:1140px) {
+    .header {
+        display: none;
+    }
+
+    .header__burger {
+        display: block;
+    }
+
+    .d-flex {
+        display: none;
+    }
+} 
